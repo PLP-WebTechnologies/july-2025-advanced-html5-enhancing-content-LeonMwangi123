@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+</head>
+<body>
+    
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List</h2>
+    <ol type="I">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+        <li>Item Five</li>
+    </ol>
+    
+    <!-- External Image from Pexels -->
+    <h2>Image from Pexels</h2>
+    <img src="https://images.pexels.com/photos/30663489/pexels-photo-30663489/free-photo-of-serene-winter-forest-pathway-scene.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Pexels Image" width="500" height="500">
+    
+    <!-- Table of Contacts -->
+    <h2>Contact List</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>leon lee</td>
+            <td>123 Kayole</td>
+            <td>+1234567890</td>
+            <td>Sulu@example.com</td>
+        </tr>
+        <tr>
+            <td>Darioh mkale</td>
+            <td>456 Chuka</td>
+            <td>+9876543210</td>
+            <td>Bobe@example.com</td>
+        </tr>
+        <tr>
+            <td>Kevin kevo</td>
+            <td>789 Kayole</td>
+            <td>+1122334455</td>
+            <td>Zamu@example.com</td>
+        </tr>
+        <tr>
+            <td>Mark mariko</td>
+            <td>101 Juja</td>
+            <td>+6677889900</td>
+            <td>Ramaa@example.com</td>
+        </tr>
+        <tr>
+            <td>John jonte</td>
+            <td>222 Cedar St</td>
+            <td>+5544332211</td>
+            <td>Fatu@example.com</td>
+        </tr>
+    </table>
+    
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password" required><br><br>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+        
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value="kenya">Kenya</option>
+            <option value="uk">UK</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+        </select><br><br>
+        
+        <label>Hobbies:</label><br>
+        <input type="checkbox" id="reading" name="hobbies" value="reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+        <label for="traveling">Traveling</label>
+        <input type="checkbox" id="sports" name="hobbies" value="sports">
+        <label for="sports">Sports</label><br><br>
+        
+        <button type="submit">Register</button>
+    </form>
+    
+</body>
+</html>
